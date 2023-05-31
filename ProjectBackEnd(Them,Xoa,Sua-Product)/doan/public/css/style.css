@@ -1,0 +1,84 @@
+.cotainer>.row>.col-md-6>h1::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #999;
+    margin: 20px 0;
+}
+
+.cotainer>.row>.col-md-6>button {
+    background-color: white;
+}
+
+.cotainer>.row>.col-md-6>form>.d-flex>.btn-add-help>.add-help {
+    background-color: black;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.cotainer>.row>.col-md-6>form>.d-flex>.btn-add-help>.add-help>.font-add-help {
+    color: white;
+}
+
+.cotainer>.row>.col-md-6>form>.d-flex>.block-radio>input:checked~label {
+    background-color: black;
+
+    color: white;
+}
+
+.cotainer>.row>.col-md-6>form>.d-flex>.block-radio>label {
+    margin-right: 10px;
+    padding: auto;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.cotainer>.row>.col-md-6>.btn-add-help::after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 1px;
+    background-color: #999;
+    margin: 40px 0;
+}
+
+.container>.border>div.people-one {
+    background-color: #EEEEEE;
+}
+
+.container-fluid>.row>.col-md-6>nav>.container-fluid>.collapse>ul>li>.row>.col-md-12>.row>.col-md-10>.d-flex>a>img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.container-fluid>.row>.col-md-6>nav>.container-fluid>.collapse>ul>li>.row>.col-md-12>.row>.col-md-10>p {
+    margin-top: 30px;
+}
+
+.container-fluid>.row>.col-md-6>nav>.container-fluid>.collapse>ul>li>.row>.col-md-12>.row>.col-md-2>.price-clother {
+    text-align: end;
+}
+
+.container>.text-center>form>input {
+    width: 370px;
+    border: 1px solid black;
+}
+
+.container>.text-center>.d-flex>button {
+    border-radius: 5px;
+    padding: 2px 20px;
+}
+
+.container>.text-center>label>h5 {
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container>.row>.col-md-6>img {
+    border-radius: 50%;
+    width: 5%;
+    background-color: black;
+}
